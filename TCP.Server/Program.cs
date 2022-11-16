@@ -46,10 +46,12 @@ namespace TCP.Server
                     client.Close();
                     Console.WriteLine("[Server] closed");
                 }
+                else if (request == null) { }
                 else if (request.Contains("Equation"))
                     sendResponse(Equation(request), writer);
                 else if (request.Contains("Stringcheck"))
                     sendResponse(Stringcheck(request), writer);
+                
                 Thread.Sleep(100);
             } while (!runVar);
         }
