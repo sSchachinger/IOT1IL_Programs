@@ -133,40 +133,5 @@ namespace TCP.Client
             writer.Flush();
         }
 
-        static void recieveTask()
-        {
-            var reader = new StreamReader(stream);
-            string request = "";
-            bool runVar = false;
-
-            do
-            {
-                try
-                {
-                    request = reader.ReadLine() + " Elapsed Time:";//+ stopwatch.ElapsedMilliseconds.ToString();
-                }
-                catch (Exception)
-                {
-                }
-                finally { }
-
-                if (request == "Exit")
-                {
-                    runVar = true;
-                    client.Close();
-                    Console.WriteLine("[Server] closed");
-                }
-                else if (request == null) { }
-                else if (request.Contains("Equation"))
-                    Console.WriteLine("[Server]:" + request);
-                else if (request.Contains("Stringcheck"))
-                    Console.WriteLine("[Server]:" + request);
-
-
-                request = "";
-                Thread.Sleep(100);
-            } while (!runVar);
-        }
-
     }
 }

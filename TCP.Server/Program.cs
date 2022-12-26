@@ -76,6 +76,7 @@ namespace TCP.Server
         static string Equation(string request)
         {
             char[] operators = { '*', '/', '+', '-' };
+
             char separatedChar = ' ';
             int[] numbers = new int[2];
 
