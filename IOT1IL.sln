@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCP.Server", "TCP.Server\TCP.Server.csproj", "{05D1AE40-67BB-46DC-A7D3-211FAB0C794B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW.TCP.Server", "TCP.Server\HW.TCP.Server.csproj", "{05D1AE40-67BB-46DC-A7D3-211FAB0C794B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCP.Client", "TCP.Client\TCP.Client.csproj", "{5C281F0F-F4D1-4E76-A65F-84D1D2B18BC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW.TCP.Client", "TCP.Client\HW.TCP.Client.csproj", "{5C281F0F-F4D1-4E76-A65F-84D1D2B18BC9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HTTP.Client1", "HTTP.Client1\HTTP.Client1.csproj", "{7FAC33B7-C1EC-404D-91B7-5D53ACDC6B26}"
 EndProject
@@ -15,9 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MQTT.Server", "MQTT.Server\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MQTT.Client", "MQTT.Client\MQTT.Client.csproj", "{861184D8-2C6B-45E2-84D8-62B28027D810}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW.HTTP.Client", "HW.HTTP.Client\HW.HTTP.Client.csproj", "{ECAD85E9-CB6E-46C7-84FD-9DE5D2E7548F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW.HTTP.Client", "HW.HTTP.Client\HW.HTTP.Client.csproj", "{ECAD85E9-CB6E-46C7-84FD-9DE5D2E7548F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW.HTTP.Server", "HW.HTTP.Server\HW.HTTP.Server.csproj", "{A6DFB7C7-5448-40AF-AF8D-B3C0E56F937D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW.HTTP.Server", "HW.HTTP.Server\HW.HTTP.Server.csproj", "{A6DFB7C7-5448-40AF-AF8D-B3C0E56F937D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
